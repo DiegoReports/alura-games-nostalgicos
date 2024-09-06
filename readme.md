@@ -1,8 +1,12 @@
 # Imersão Dev Alura com Google Gemini: [Nome do Seu Projeto]
 
+## Screenshots
+
+![Screenshot 1](./assets/screenshot-alura-games-nostalgicos.png)
+
 ## Sobre o Projeto
 
-[Uma breve descrição do seu projeto, seu objetivo e as funcionalidades principais]
+O alura Games Nostalgicos foi desenvolvido com auxilio das aulas da Imersão Dev - Google Gemini, da Alura. Nele, você pode pesquisar pelos seus games favoritos de 64 bits de consoles como: Super Nintendo, Megadrive, Atari, etc...
 
 ## Tecnologias Utilizadas
 
@@ -12,11 +16,6 @@
 - [Adicione outras tecnologias se utilizadas, como frameworks ou bibliotecas]
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-## Screenshots
-
-[Insira aqui as imagens dos seus screenshots com a seguinte sintaxe:]
-![Screenshot 1](./assets/screenshot-alura-games-nostalgicos.png)
 
 ## Progresso do Projeto
 
