@@ -91,6 +91,27 @@ section button {
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+
+    /* display: flex;
+    flex-direction: row;
+    align-items: center */;
+}
+
+.jogo-imagem {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  margin-right: 1rem;
+  object-fit: cover;
+}
+
+.genero, .console {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
@@ -118,7 +139,7 @@ section button {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #F5F7F8; /* Cor de fundo do rodapé */
+    background-color: #adaeef; /* Cor de fundo do rodapé */
     color: #45474B; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
