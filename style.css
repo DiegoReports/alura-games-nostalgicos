@@ -4,7 +4,6 @@
 /* Estiliza o corpo da página */
 body {
   font-family: "Pixelify Sans", sans-serif; /* Define a fonte padrão */
-  /* background-color: #DDDDDD; */ /* Cor de fundo da página */
   width: 100%;
   height: 100vh; /* Preenche a altura total da viewport */
   background-image: url(./background.jpg);
@@ -173,9 +172,5 @@ footer {
   .jogo-imagem {
     width: 80px;
     height: 80px; /* Diminui o tamanho das imagens */
-  }
-
-  .item-resultado a {
-    margin-top: 1rem;
   }
 }
