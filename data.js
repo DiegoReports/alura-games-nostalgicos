@@ -40,5 +40,54 @@ const games = [
     genre: 'Aventura',
     console: 'Super Nintendo',
     link: 'https://pt.wikipedia.org/wiki/Donkey_Kong'
+  },
+  {
+    title: 'Super Metroid',
+    description: 'Explore um planeta alienígena em busca de sua irmã.',
+    image: './assets/supermetroid.jpg',
+    genre: 'Aventura',
+    console: 'Super Nintendo',
+    link: 'https://pt.wikipedia.org/wiki/Super_Metroid'
+  },
+  {
+    title: 'Super Mario Kart',
+    description: 'Corridas frenéticas com os personagens da Nintendo.',
+    image: './assets/supermariokart.webp',
+    genre: 'Corrida',
+    console: 'Super Nintendo',
+    link: 'https://pt.wikipedia.org/wiki/Super_Mario_Kart'
+  },
+  {
+    title: 'Streets of Rage',
+    description: 'Lute contra o crime nas ruas em um beatem up clássico.',
+    image: './assets/streetsofrage.png',
+    genre: 'Ação',
+    console: 'Mega Drive',
+    link: 'https://pt.wikipedia.org/wiki/Streets_of_Rage_2'
+  },
+  {
+    title: 'Pong',
+    description: 'O clássico jogo de tênis de mesa.',
+    image: './assets/pong.jpeg',
+    genre: 'Esporte',
+    console: 'Atari 2600',
+    link: 'https://pt.wikipedia.org/wiki/Pong'
+  },
+  {
+    title: 'Top gear',
+    description: 'Um jogo de corrida de rua.',
+    image: './assets/topgear.jpg',
+    genre: 'Corrida',
+    console: 'Super Nintendo',
+    link: 'https://pt.wikipedia.org/wiki/Top_Gear'
+  },
+  {
+    title: 'Megaman X',
+    description:
+      'O jogo segue o protagonista Mega Man X, um membro androide de uma força-tarefa militar chamada de "Maverick Hunters". Com a ajuda de seu parceiro Zero, X deve frustrar os planos de Sigma, um líder maverick poderoso que deseja trazer a extinção humana',
+    image: './assets/megamanx.png',
+    genre: 'Aventura',
+    console: 'Super Nintendo',
+    link: 'https://pt.wikipedia.org/wiki/Mega_Man_X'
   }
 ]
