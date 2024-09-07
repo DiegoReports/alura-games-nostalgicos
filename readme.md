@@ -1,4 +1,4 @@
-# Imersão Dev Alura com Google Gemini: [Nome do Seu Projeto]
+# Imersão Dev Alura com Google Gemini: Games Nostálgicos
 
 ## Screenshots
 
