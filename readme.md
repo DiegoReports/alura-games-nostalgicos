@@ -24,7 +24,7 @@ O alura Games Nostalgicos foi desenvolvido com auxilio das aulas da Imersão Dev
 - [x] Aula 02: Estilizando o projeto com CSS
 - [x] Aula 03: Criando a base de dados com Javascript
 - [x] Aula 04: Implementando a funcionalidade de busca
-- [ ] Aula 05: Finalizando o projeto com Github e Deploy
+- [x] Aula 05: Finalizando o projeto com Github e Deploy
 
 ## Como Contribuir
 
