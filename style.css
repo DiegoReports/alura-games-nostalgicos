@@ -71,6 +71,12 @@ section button {
     color: #F5F7F8; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s ease; /* Adiciona transição de cor ao botão */
+}
+
+section button:hover {
+  background-color: #45474B; /* Cor de fundo do botão ao passar o mouse */
+  color: #F5F7F8; /* Cor do texto do botão ao passar o mouse */
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
@@ -91,10 +97,6 @@ section button {
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
-
-    /* display: flex;
-    flex-direction: row;
-    align-items: center */;
 }
 
 .jogo-imagem {
