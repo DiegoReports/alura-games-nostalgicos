@@ -4,7 +4,9 @@
 /* Estiliza o corpo da página */
 body {
   font-family: "Pixelify Sans", sans-serif; /* Define a fonte padrão */
-  background-color: #DDDDDD; /* Cor de fundo da página */
+  /* background-color: #DDDDDD; */ /* Cor de fundo da página */
+  width: 100%;
+  height: 100vh; /* Preenche a altura total da viewport */
   background-image: url(./background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,18 +15,17 @@ body {
   flex-direction: column; /* Alinha os itens na vertical */
   align-items: center; /* Centraliza os itens horizontalmente */
   justify-content: center; /* Centraliza os itens verticalmente */
-  height: 100vh; /* Preenche a altura total da viewport */
   margin: 0;
   padding: 0;
 }
 
 body::before {
+  width: 100%;
+  height: 100vh;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
   background-color: rgba(255, 255, 255, 0.599); /* Cinza com 50% de opacidade */
   z-index: -1; /* Posiciona atrás dos outros elementos */
 }
@@ -44,6 +45,7 @@ h1 {
 
 /* Estiliza as seções da página */
 section {
+  width: 100%;
   display: flex; /* Usa Flexbox para layout */
   flex-direction: column; /* Alinha os itens na vertical */
   align-items: center; /* Centraliza os itens horizontalmente */
@@ -52,7 +54,7 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 30rem; /* Largura dos inputs */
+    width: 20rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
@@ -81,7 +83,7 @@ section button:hover {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
+    width: 40rem; /* Largura máxima da caixa de resultados */
     height: 46vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
@@ -146,7 +148,34 @@ footer {
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    position: absolute; /* Posiciona o rodapé */
+    position: relative; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
+}
+
+/* Media query para telas menores (ex: smartphones) */
+@media (max-width: 768px) {
+  body {
+    /* padding: 1rem; */ /* Adiciona um padding para evitar que o conteúdo fique muito próximo das bordas */
+    width: 100%;
+    height: 100%;
+  }
+
+  section {
+    margin-bottom: 2rem; /* Diminui o espaçamento entre as seções */
+    max-width: 500px;
+  }
+
+  .resultados-pesquisa {
+    width: 80%;
+  }
+
+  .jogo-imagem {
+    width: 80px;
+    height: 80px; /* Diminui o tamanho das imagens */
+  }
+
+  .item-resultado a {
+    margin-top: 1rem;
+  }
 }
