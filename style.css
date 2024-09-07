@@ -29,6 +29,10 @@ body::before {
   z-index: -1; /* Posiciona atrás dos outros elementos */
 }
 
+header {
+  margin-top: 4rem;
+}
+
 ul {
   list-style: none;
 }
@@ -53,7 +57,7 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 20rem; /* Largura dos inputs */
+    width: 80%; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
@@ -163,6 +167,10 @@ footer {
   section {
     margin-bottom: 2rem; /* Diminui o espaçamento entre as seções */
     max-width: 500px;
+  }
+
+  section input {
+    width: 20rem;
   }
 
   .resultados-pesquisa {
